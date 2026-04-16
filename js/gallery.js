@@ -1,6 +1,6 @@
 function upDate(previewPic){
 
-    const box = document.getElementById('image');
+    const box = document.getElementById('containerPurple');
     document.getElementById('image').innerHTML = previewPic.alt;
     box.style.backgroundImage = "url('" + previewPic.src + "')";
 
@@ -8,7 +8,7 @@ function upDate(previewPic){
 
 function unDo(){
 
-    const box = document.getElementById('image');
+    const box = document.getElementById('containerPurple');
     box.style.backgroundImage = "url()";
     box.innerHTML = "Hover over an image below to display here.";
 	
