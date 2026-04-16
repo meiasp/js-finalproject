@@ -1,7 +1,7 @@
 function upDate(previewPic){
 
     const box = document.getElementById('containerPurple');
-    document.getElementById('image').innerHTML = previewPic.alt;
+    document.getElementById('containerPurple').innerHTML = previewPic.alt;
     box.style.backgroundImage = "url('" + previewPic.src + "')";
 
 }
